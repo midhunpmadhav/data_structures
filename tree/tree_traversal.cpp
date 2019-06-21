@@ -1,7 +1,7 @@
 /*
  * Author      : Midhun P
  * Description : different types of tree traversals
- * Remarks     : Preorder, inorder, postorder and level order
+ * Remarks     : Preorder, inorder and postorder
  */
 
 #include<iostream>
@@ -48,31 +48,6 @@ class Node {
             post_order(root->right);
             cout << root->data << " ";
         }
-
-        static void level_order(Node* root) {
-            queue<Node*> q;
-
-            if(!root)
-                return;
-
-            q.push(root);
-
-            while(!q.empty()) {
-                Node *tmp;
-                
-                tmp = q.front();
-                q.pop();
-
-                cout << tmp->data << " ";
-
-                if(tmp->left)
-                    q.push(tmp->left);
-
-                if(tmp->right)
-                    q.push(tmp->right);
-            }
-            cout << endl;
-        }
 };
 
 int main() { 
@@ -93,10 +68,6 @@ int main() {
   
     cout << "Post order traversal of binary tree is \t: "; 
     Node::post_order(root);
-    cout << endl;
-
-    cout << "Level order traversal of binary tree is\t: "; 
-    Node::level_order(root);
-    cout << endl;
+    cout << endl << endl;
     return 0; 
 } 
