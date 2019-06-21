@@ -1,7 +1,12 @@
+/*
+ * Author      : Midhun P
+ * Description : Breadth first search traversal
+ * Remarks     : BFS using queue data structure
+ */
+
 #include<iostream>
 #include<list>
 #include<queue>
-#include<stack>
 
 using namespace std;
 

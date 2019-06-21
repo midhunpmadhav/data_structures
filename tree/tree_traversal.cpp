@@ -1,3 +1,9 @@
+/*
+ * Author      : Midhun P
+ * Description : different types of tree traversals
+ * Remarks     : Preorder, inorder, postorder and level order
+ */
+
 #include<iostream>
 #include<queue>
 

@@ -1,6 +1,11 @@
+/*
+ * Author      : Midhun P
+ * Description : Depth first search traversal
+ * Remarks     : DFS using stack data structure
+ */
+
 #include<iostream>
 #include<list>
-#include<queue>
 #include<stack>
 
 using namespace std;
