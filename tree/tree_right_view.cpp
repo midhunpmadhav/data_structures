@@ -42,15 +42,17 @@ public:
             tmp = q.front();
             q.pop();
 
-            if(!tmp) {
-                if(q.empty())
+            if (!tmp)
+            {
+                if (q.empty())
                     break;
-                else {
+                else
+                {
                     q.push(NULL);
                     continue;
                 }
             }
-            
+
             // If next node is null,
             // then current node is the last node in that level.
             if (!q.front())
@@ -90,6 +92,6 @@ int main()
 
     cout << "Right view of binary tree is\t: ";
     Node::right_view(root);
-    
+
     return 0;
 }
