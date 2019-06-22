@@ -1,7 +1,7 @@
 /*
  * Author      : Midhun P
  * Description : Top view of a tree
- * Remarks     : Print print first element (min height) with 
+ * Remarks     : Print first element (min height) with 
  *               unique horizondal distance.
  */
 
