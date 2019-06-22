@@ -1,7 +1,8 @@
 /*
  * Author      : Midhun P
- * Description : Right view of a tree
- * Remarks     : Print last node in each level
+ * Description : Top view of a tree
+ * Remarks     : Print print first element (min height) with 
+ *               unique horizondal distance.
  */
 
 #include <iostream>
