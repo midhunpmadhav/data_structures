@@ -1,6 +1,6 @@
 /*
  * Author      : Midhun P
- * Description : Top view of a tree
+ * Description : Print nodes of a binary tree in vertical order.
  * Remarks     : Print nodes in the order of 
  *               horizondal distance.
  */
@@ -27,7 +27,7 @@ public:
         left = right = NULL;
     }
 
-    // Function to vertical order of a tree
+    // Function to print vertical order of a tree
     static void vertical_order(Node *root)
     {
         queue<Node *> q;
