@@ -3,8 +3,8 @@ Repo: data_structures
 
 C++ implementation of common data structures problems and algorithms.
 
-This repository contains solutions of following problems
-========================================================
+This repository contains following problems
+===========================================
 a. Tree:
 1. Print left view of a binary tree
 2. Print right view of a binary tree
@@ -14,8 +14,8 @@ a. Tree:
 6. Vertical order traversal of a binary tree
 
 b. Linked List:
-1. Reversal of singly linked list (with/without recursion)
-2. Reversal of doubly linked list (with/without recursion)
+1. Reverse a singly linked list (with/without recursion)
+2. Reverse a doubly linked list (with/without recursion)
 3. Find loop in a singly linked list
 4. Find the middle node of a singly linked list
 
