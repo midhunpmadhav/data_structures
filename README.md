@@ -3,8 +3,8 @@ Repo: data_structures
 
 C++ implementation of common data structures problems and algorithms.
 
-This repository contains solutions of the following problems
-============================================================
+This repository contains solutions for the following problems
+=============================================================
 a. Tree:
 1. Print left view of a binary tree
 2. Print right view of a binary tree
