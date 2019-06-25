@@ -15,7 +15,9 @@ a. Tree:
 
 b. Linked List:
 1. Reversal of singly linked list (with/without recursion)
-1. Reversal of doubly linked list (with/without recursion)
+2. Reversal of doubly linked list (with/without recursion)
+3. Find loop in a singly linked list
+4. Find the middle node of a singly linked list
 
 c. Graph:
 1. Breadth first search (BFS) using recursion
