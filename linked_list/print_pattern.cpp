@@ -64,7 +64,7 @@ node* reverse_linked_list(node *tmp)
     return prev;
 }
 
-node *make_rqrd_pattern(node *head)
+node* make_rqrd_pattern(node *head)
 {
     node *middle, *fast_ptr, *tmp;
 
