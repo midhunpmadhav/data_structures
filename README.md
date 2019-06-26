@@ -18,6 +18,7 @@ b. Linked List:
 2. Reverse a doubly linked list (with/without recursion)
 3. Find loop in a singly linked list
 4. Find the middle node of a singly linked list
+5. Print a pattern (see description in file print_pattern.cpp for more details)
 
 c. Graph:
 1. Breadth first search (BFS) using recursion
