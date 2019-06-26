@@ -45,7 +45,7 @@ void print_linked_list(node *head, int max = 20)
         cout << "..." << endl;
 }
 
-node *reverse_linked_list(node *tmp)
+node* reverse_linked_list(node *tmp)
 {
     node *curr;
     node *prev;
