@@ -24,3 +24,6 @@ c. Graph:
 1. Breadth first search (BFS) using recursion
 2. Breadth first search (BFS) using queue
 3. Depth first search (DFS) using stack
+
+d. Heap
+1. Build max and min heap
