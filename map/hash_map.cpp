@@ -17,7 +17,7 @@ int find_hash(char *s){
   char *c = s;
 
   for(char *c = s; *c != '\0'; ++c) {
-    hash = (hash + (*c - '0' + 1) * pwr)%BUCKETS;
+    hash = (hash + (*c - ' ' + 1) * pwr)%BUCKETS;
     pwr = (pwr*p)%BUCKETS;
   }
 
@@ -58,9 +58,9 @@ public:
 int main() {
   Map map;
 
-  char a[] = "Hello_World_1";
-  char b[] = "Hello_World_2";
-  char c[] = "Hello_World_3";
+  char a[] = "Hello World_1!";
+  char b[] = "Hello World_2!";
+  char c[] = "Hello World_3!";
 
   map.insert(a);
   map.insert(b);
