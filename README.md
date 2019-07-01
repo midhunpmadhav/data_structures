@@ -33,3 +33,6 @@ e. Queue
 
 f. Stack
 1. Implementation of stack using linked list
+
+g.Map
+1. Implementation of map without STL
