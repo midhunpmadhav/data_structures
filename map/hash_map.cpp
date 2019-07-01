@@ -16,7 +16,7 @@ int find_hash(char *s){
   int hash = 0;
   char *c = s;
 
-  for(char *c = s; *c != '\0'; c++) {
+  for(char *c = s; *c != '\0'; ++c) {
     hash = (hash + (*c - '0' + 1) * pwr)%BUCKETS;
     pwr = (pwr*p)%BUCKETS;
   }
@@ -43,6 +43,8 @@ public:
         if(data_store[hash])
             // Avoid collision by linear probing.
             while(data_store[++hash]);
+
+        // Insert data.
         data_store[hash] = data;
     }
 
