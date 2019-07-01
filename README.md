@@ -27,3 +27,9 @@ c. Graph:
 
 d. Heap
 1. Build max and min heap
+
+e. Queue
+1. Implementation of queue  using linked list
+
+f. Stack
+1. Implementation of stack using linked list
